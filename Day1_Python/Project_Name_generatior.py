@@ -1,0 +1,1 @@
+print("The brand name should be \"" + input("What is your favourite dog? : ") + "'s " + input("Where do you buy your goods from? : ") + "\"")
