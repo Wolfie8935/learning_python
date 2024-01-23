@@ -1,0 +1,7 @@
+my_file = open("my_file.txt","a")
+my_file.write("New login")
+my_file.close()
+my_new_file = open("my_file.txt","r")
+content = my_new_file.read()
+print(content)
+my_new_file.close()
